@@ -4,16 +4,11 @@ namespace Model
 {
     public delegate void MyDelegate(string msg);
 
-   
-    MyDelegate del = new MyDelegate(MethodA);
     MyDelegate del = MethodA;
     MyDelegate del = (string msg) => Console.WriteLine(msg);
 
     // target
-    static void MethodA(string message)
-    {
-        Console.WriteLine(message);
-    }
+    
 
     public delegate void MyDelegate(string msg); //declaring a delegate
 
@@ -21,6 +16,7 @@ namespace Model
     {
         static void Main(string[] args)
         {
+            MyDelegate del = new MyDelegate(MethodA);
             MyDelegate del = ClassA.MethodA;
             del("Hello World");
 
@@ -29,6 +25,11 @@ namespace Model
 
             del = (string msg) => Console.WriteLine("User Final Calculations: " + msg);
             del("Hello World");
+        }
+
+        static void MethodA(string message)
+        {
+            Console.WriteLine(message);
         }
     }
 
