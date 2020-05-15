@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {}
+    "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {}
   },
   "projects": {
-    "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {
+    "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\Wanne\\.nuget\\packages\\",
-        "outputPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
+        "projectPath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wanne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -1,15 +1,18 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "Sv5PNNff2kvXmtpRyQ2xf9oUHBzXJmIOWU6v+Pm6lCAGC5NXgTe48smHLvW3UAgX2sG0X1SnUPGJIEYZEYX7VA==",
-=======
-  "dgSpecHash": "gdO96YlAUb1unRWNbbfCq9Dcx6s6ggG1S1NfiyKucuZtHGtm3JcRF+ZaG7GXo+C9xiRSnj7/hZO2NNoNfldETw==",
->>>>>>> 17ff489c63592c5d6cc91c874f3ebf223b2821c6
+  "dgSpecHash": "mKxnuNGy+Wldx3No8psMmeN7g125SuWZ73BGUzp1mY/zrQpcYbC9+C1THR+UA3+gjIjuU751p/dqgaSew4FRTA==",
   "success": true,
-  "projectFilePath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Wanne\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Wanne\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Alexa\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alexa\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
