@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "+hvJtVH/Uxy7oB9bpOFlyX82uvBXaVvAnIt7J4uLqJxUSiGe5GgOAGee+Bmq46kbq+sQ3h/VqSEhInWPVlC9xA==",
+=======
+  "dgSpecHash": "Uwea/dEVCtmjfyNYfAzO4j8lrLC/jNQH/URSA1JnEyJQms2nuiiKVwcszHN2SpdToemMhNJNoUStIe+mtq3AMw==",
+>>>>>>> 17ff489c63592c5d6cc91c874f3ebf223b2821c6
   "success": true,
   "projectFilePath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [

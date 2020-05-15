@@ -1,11 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "GlF5KYmleZNpsHTsXLp1jiWqtTDR7nSDIbrGZS7wYbSQAxhvBDLT+Joal24RDL5/gRcRWw7gM4VMc97xfk4HnA==",
   "success": true,
   "projectFilePath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Wanne\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Wanne\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+=======
+  "dgSpecHash": "xquY57elnDMWIWMc/Cspejg4h8QJ+Gdu+A5lYMI9t1siPrE1hq70CUQKOL9TDeod7N9zh5fHi/BIC9ofrTYgQQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\raymo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\raymo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+>>>>>>> 17ff489c63592c5d6cc91c874f3ebf223b2821c6
   ],
   "logs": []
 }
