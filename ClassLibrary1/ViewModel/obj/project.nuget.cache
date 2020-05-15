@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "Q2Fe3ERv/nYpZVNHs2FE+NW4catj0fKij07Akvp4P6grgpV8HXWWTjclGnZrnPq6Gk21kC/8vo3eHYu4MSKHwQ==",
-=======
-  "dgSpecHash": "Uwea/dEVCtmjfyNYfAzO4j8lrLC/jNQH/URSA1JnEyJQms2nuiiKVwcszHN2SpdToemMhNJNoUStIe+mtq3AMw==",
->>>>>>> abc3ada2872ecb4c7bc16fef72a6edbf57b2dcc6
   "success": true,
   "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [
