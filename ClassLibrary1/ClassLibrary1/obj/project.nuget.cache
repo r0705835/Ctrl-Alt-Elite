@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "xquY57elnDMWIWMc/Cspejg4h8QJ+Gdu+A5lYMI9t1siPrE1hq70CUQKOL9TDeod7N9zh5fHi/BIC9ofrTYgQQ==",
+=======
+  "dgSpecHash": "3ErtX8/fOBfkaHSLnF2qWFp17xFMK1d9rrKM6wCqZqhxiURz227EOv/U/YMyhEOT4txlhaNeGh3TXixc1dizRg==",
+>>>>>>> abc3ada2872ecb4c7bc16fef72a6edbf57b2dcc6
   "success": true,
   "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
   "expectedPackageFiles": [
