@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ctrl_Alt_Delete.Properties
+namespace Ctrl_Alt_Delte.Properties
 {
 
 
