@@ -1,12 +1,12 @@
 {
   "version": 2,
 <<<<<<< HEAD
-  "dgSpecHash": "0vAxa6xxkRpenVUtydac29bpECPIHMsl571T/Y2DeBoe7WnoinvX8n+aCu6jI3UKHtoIamLsKr0AnCjRGjSCaQ==",
+  "dgSpecHash": "xquY57elnDMWIWMc/Cspejg4h8QJ+Gdu+A5lYMI9t1siPrE1hq70CUQKOL9TDeod7N9zh5fHi/BIC9ofrTYgQQ==",
 =======
-  "dgSpecHash": "gdO96YlAUb1unRWNbbfCq9Dcx6s6ggG1S1NfiyKucuZtHGtm3JcRF+ZaG7GXo+C9xiRSnj7/hZO2NNoNfldETw==",
+  "dgSpecHash": "3ErtX8/fOBfkaHSLnF2qWFp17xFMK1d9rrKM6wCqZqhxiURz227EOv/U/YMyhEOT4txlhaNeGh3TXixc1dizRg==",
 >>>>>>> abc3ada2872ecb4c7bc16fef72a6edbf57b2dcc6
   "success": true,
-  "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+  "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raymo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\raymo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

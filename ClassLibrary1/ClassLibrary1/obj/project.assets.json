@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
-      "projectName": "ViewModel",
-      "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+      "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+      "projectName": "View",
+      "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
       "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\obj\\",
+      "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
