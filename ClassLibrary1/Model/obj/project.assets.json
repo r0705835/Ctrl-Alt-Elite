@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
-      "projectName": "View",
-      "projectPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+      "projectUniqueName": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\nelen\\.nuget\\packages\\",
-      "outputPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\obj\\",
+      "outputPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nelen\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dqn05ueO31iXAxYkpqeyodxxRqwl/Um9oF41DaqnT1yuRa1GqPwk+wO181oxk92tzgzQn+l15FBZUx9i/npxDA==",
+  "dgSpecHash": "jgWEhtC8bySGGP9vnYm29E5sjSW12/hkYIpCIZYxWq3b11z8kZyNfgtdEUrbtdz9t1J+b2IzF3LOg8bud6aSZA==",
   "success": true,
-  "projectFilePath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+  "projectFilePath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nelen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\nelen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
