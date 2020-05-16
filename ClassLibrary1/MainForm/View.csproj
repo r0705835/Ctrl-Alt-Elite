@@ -54,9 +54,19 @@
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Compile Include="IndividualStore.xaml.cs">
+      <DependentUpon>IndividualStore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reward.xaml.cs">
+      <DependentUpon>Reward.xaml</DependentUpon>
+    </Compile>
     <Compile Include="storeOverview.xaml.cs">
       <DependentUpon>storeOverview.xaml</DependentUpon>
     </Compile>
+    <Page Include="IndividualStore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -69,6 +79,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Reward.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="storeOverview.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -99,6 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Plantains.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Walmart.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
