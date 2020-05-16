@@ -5,6 +5,14 @@ public class SamplesArrayList
 
     public static void Main()
     {
+        // Creates and initializes a new ArrayList.
+        ArrayList ProductScoring = new ArrayList();
+        ProductScoring.Add("100%-80%  +0  ");
+        ProductScoring.Add("79%-60%  +1  ");
+        ProductScoring.Add("59%-40%  +2  ");
+        ProductScoring.Add("39%-20%  +3  ");
+        ProductScoring.Add("19%-10%  +4  ");
+        ProductScoring.Add("9%-0%  +5  ");
 
         // Creates and initializes a new ArrayList.
         ArrayList ProductNames = new ArrayList();
@@ -21,10 +29,16 @@ public class SamplesArrayList
         RewardPerPerc.Enqueue("+4 ");
 
         // Displays the ArrayList and the Queue.
+        Console.WriteLine("Eco-Coin Rating pre Percentage:");
+        PrintValues(ProductNames, '\t');
+
+        // Displays the ArrayList and the Queue.
         Console.WriteLine("Selected Eco-Products:");
         PrintValues(ProductNames, '\t');
         Console.WriteLine("Reward amounts per plastic percentage:");
         PrintValues(RewardPerPerc, '\t');
+
+        
 
         // Copies the Queue elements to the end of the ArrayList.
         ProductNames.AddRange(RewardPerPerc);
@@ -45,6 +59,9 @@ public class SamplesArrayList
 
 /*
 This code produces the following output.
+
+Eco-Coin Rating pre Percentage:
+100%-80%  +0      79%-60%  +1      59%-40%  +2      39%-20%  +3      19%-10%  +4       9%-0%  +5  
 
 Selected Eco-Products:
     Plantains    Apples    Milk Cartons    Sweets(Paper/Cardboard Package)
