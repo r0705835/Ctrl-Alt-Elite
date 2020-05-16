@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="IndividualStore" Height="450" Width="800">
     <Grid>
-        <Label Content="Store" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="39" Width="78" RenderTransformOrigin="0.5,0.5">
+        <Label Content="Store" HorizontalAlignment="Left" Margin="358,20,0,0" VerticalAlignment="Top" Height="37" Width="66" RenderTransformOrigin="0.5,0.5" FontSize="22">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -17,22 +17,23 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ComboBox HorizontalAlignment="Left" Margin="217,68,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="ComboBox_SelectionChanged">
-            <ComboBoxItem Content="19%-0%  +5" HorizontalAlignment="Left" Width="161"/>
-            <ComboBoxItem Content="39%-20%  +4" HorizontalAlignment="Left" Width="161"/>
-            <ComboBoxItem Content="59%-40%  +3" HorizontalAlignment="Left" Width="161"/>
-            <ComboBoxItem Content="79%-60%  +2" HorizontalAlignment="Left" Width="161"/>
-            <ComboBoxItem Content="100%-80%  +1" HorizontalAlignment="Left" Width="161"/>
-            <ComboBoxItem Content="ComboBoxItem" HorizontalAlignment="Left" Width="183"/>
-        </ComboBox>
-        <Image HorizontalAlignment="Left" Height="256" Margin="516,108,0,0" VerticalAlignment="Top" Width="225"/>
-        <ComboBox HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="185">
-            <ComboBoxItem Content="Graystraat 102, 1040 Brussel" HorizontalAlignment="Left" Width="169"/>
-            <ComboBoxItem Content="Edingensesteenweg 196 1500 Halle" HorizontalAlignment="Left" Width="169"/>
-            <ComboBoxItem Content="Casterstraat 31A 3500 Hasselt" HorizontalAlignment="Left" Width="183"/>
-            <ComboBoxItem Content="Walmart Supercenter #664 4301 Vine St" HorizontalAlignment="Left" Width="183"/>
-            <ComboBoxItem Content="diestsestraat 210 leuven" HorizontalAlignment="Left" Width="183"/>
-        </ComboBox>
+
+        <Label Content="Name" HorizontalAlignment="Left" Margin="100,131,0,0" VerticalAlignment="Top" Height="26" Width="50" FontSize="14"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="100,176,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Rating" HorizontalAlignment="Left" Margin="100,216,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Product list" HorizontalAlignment="Left" Margin="496,81,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Walmart" HorizontalAlignment="Left" Margin="206,131,0,0" VerticalAlignment="Top"/>
+        <Label Content="Supermarket" HorizontalAlignment="Left" Margin="206,176,0,0" VerticalAlignment="Top"/>
+        <Label Content="2/5" HorizontalAlignment="Left" Margin="206,216,0,0" VerticalAlignment="Top"/>
+        <Label Content="* Cola" HorizontalAlignment="Left" Margin="496,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="* Lays" HorizontalAlignment="Left" Margin="497,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="* KitKat " HorizontalAlignment="Left" Margin="497,216,0,0" VerticalAlignment="Top"/>
+        <Label Content="Product name" HorizontalAlignment="Left" Margin="497,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rating" HorizontalAlignment="Left" Margin="635,130,0,0" VerticalAlignment="Top"/>
+        <Label Content="2/5" HorizontalAlignment="Left" Margin="641,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="3/5" HorizontalAlignment="Left" Margin="641,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="1/5" HorizontalAlignment="Left" Margin="641,216,0,0" VerticalAlignment="Top"/>
+        <Label Content="Store information" HorizontalAlignment="Left" Margin="100,81,0,0" VerticalAlignment="Top" FontSize="16"/>
 
     </Grid>
 </Window>
