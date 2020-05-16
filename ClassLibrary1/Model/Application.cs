@@ -7,12 +7,11 @@ public class SamplesArrayList
     {
         // Creates and initializes a new ArrayList.
         ArrayList ProductScoring = new ArrayList();
-        ProductScoring.Add("100%-80%  +0  ");
-        ProductScoring.Add("79%-60%  +1  ");
-        ProductScoring.Add("59%-40%  +2  ");
-        ProductScoring.Add("39%-20%  +3  ");
-        ProductScoring.Add("19%-10%  +4  ");
-        ProductScoring.Add("9%-0%  +5  ");
+        ProductScoring.Add("100%-80%  +1  ");
+        ProductScoring.Add("79%-60%  +2  ");
+        ProductScoring.Add("59%-40%  +3   ");
+        ProductScoring.Add("39%-20%  +4  ");
+        ProductScoring.Add("19%-0%  +5  ");
 
         // Creates and initializes a new ArrayList.
         ArrayList ProductNames = new ArrayList();
@@ -61,7 +60,7 @@ public class SamplesArrayList
 This code produces the following output.
 
 Eco-Coin Rating pre Percentage:
-100%-80%  +0      79%-60%  +1      59%-40%  +2      39%-20%  +3      19%-10%  +4       9%-0%  +5  
+100%-80%  +1      79%-60%  +2      59%-40%  +3      39%-20%  +4      19%-0%  +5
 
 Selected Eco-Products:
     Plantains    Apples    Milk Cartons    Sweets(Paper/Cardboard Package)
