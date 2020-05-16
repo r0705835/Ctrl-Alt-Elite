@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj": {}
+    "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj": {}
   },
   "projects": {
-    "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj": {
+    "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+        "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
         "projectName": "ViewModel",
-        "projectPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
-        "packagesPath": "C:\\Users\\Wanne\\.nuget\\packages\\",
-        "outputPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\obj\\",
+        "projectPath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+        "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Wanne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
