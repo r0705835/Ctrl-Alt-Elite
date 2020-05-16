@@ -180,19 +180,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nelen\\.nuget\\packages\\": {}
+<<<<<<< HEAD
+    "C:\\Users\\Wanne\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\raymo\\.nuget\\packages\\": {}
+>>>>>>> 17ff489c63592c5d6cc91c874f3ebf223b2821c6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+<<<<<<< HEAD
+      "projectUniqueName": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
       "projectName": "View",
-      "projectPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
-      "packagesPath": "C:\\Users\\nelen\\.nuget\\packages\\",
-      "outputPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\obj\\",
+      "projectPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+      "packagesPath": "C:\\Users\\Wanne\\.nuget\\packages\\",
+      "outputPath": "D:\\Bureaublad\\Hackaton Hack the waste\\Project\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Wanne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+      "projectName": "View",
+      "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\View.csproj",
+      "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\Ctrl-Alt-Elite\\ClassLibrary1\\ClassLibrary1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 17ff489c63592c5d6cc91c874f3ebf223b2821c6
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -233,7 +248,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
