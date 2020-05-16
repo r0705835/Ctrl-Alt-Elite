@@ -37,6 +37,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -54,9 +55,19 @@
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
+    <Compile Include="IndividualStore.xaml.cs">
+      <DependentUpon>IndividualStore.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reward.xaml.cs">
+      <DependentUpon>Reward.xaml</DependentUpon>
+    </Compile>
     <Compile Include="storeOverview.xaml.cs">
       <DependentUpon>storeOverview.xaml</DependentUpon>
     </Compile>
+    <Page Include="IndividualStore.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -70,8 +81,8 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="storeOverview.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +110,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\plant-with-leaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="plant-with-leaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Poster.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Poster.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

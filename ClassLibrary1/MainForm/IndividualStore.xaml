@@ -7,7 +7,14 @@
         mc:Ignorable="d"
         Title="IndividualStore" Height="450" Width="800">
     <Grid>
-        <Label Content="Store" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="39" Width="78" RenderTransformOrigin="0.5,0.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="309*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="13*"/>
+            <ColumnDefinition Width="53*"/>
+            <ColumnDefinition Width="22*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Store" HorizontalAlignment="Left" Margin="10,0,0,371" VerticalAlignment="Bottom" Height="39" Width="78" RenderTransformOrigin="0.5,0.5">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,7 +32,7 @@
             <ComboBoxItem Content="100%-80%  +1" HorizontalAlignment="Left" Width="161"/>
             <ComboBoxItem Content="ComboBoxItem" HorizontalAlignment="Left" Width="183"/>
         </ComboBox>
-        <Image HorizontalAlignment="Left" Height="256" Margin="516,108,0,0" VerticalAlignment="Top" Width="225"/>
+        <Image HorizontalAlignment="Left" Height="256" Margin="516,108,0,0" VerticalAlignment="Top" Width="225" Grid.ColumnSpan="4"/>
         <ComboBox HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="185">
             <ComboBoxItem Content="Graystraat 102, 1040 Brussel" HorizontalAlignment="Left" Width="169"/>
             <ComboBoxItem Content="Edingensesteenweg 196 1500 Halle" HorizontalAlignment="Left" Width="169"/>

@@ -6,13 +6,12 @@
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label Content="HomePage" HorizontalAlignment="Left" Margin="341,25,0,0" VerticalAlignment="Top" FontSize="22"/>
-        <Label Content="Username" HorizontalAlignment="Left" Margin="584,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691"/>
-        <Label Content="Eco-Points" HorizontalAlignment="Left" Margin="665,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691"/>
-        <Label Content="Scoreboard" HorizontalAlignment="Left" Margin="623,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" FontSize="14"/>
-        <Button HorizontalAlignment="Left" Height="45" Margin="63,161,0,0" VerticalAlignment="Top" Width="122">
-            <Label Content="Stores" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+    <Grid Background="#FF40A1AA">
+        <Label Content="Username" HorizontalAlignment="Left" Margin="584,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
+        <Label Content="Eco-Points" HorizontalAlignment="Left" Margin="665,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
+        <Label Content="Scoreboard" HorizontalAlignment="Left" Margin="597,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" FontSize="20" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Candice"/>
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,161,0,0" VerticalAlignment="Top" Width="122" Foreground="#FFE2D4D4" Background="#FF014BAA" FontFamily="Candice" Click="Button_Click">
+            <Label Content="Stores" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFD6C1C1" FontFamily="Consolas">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -23,8 +22,8 @@
                 </Label.RenderTransform>
             </Label>
         </Button>
-        <Button HorizontalAlignment="Left" Height="45" Margin="63,243,0,0" VerticalAlignment="Top" Width="122">
-            <Label Content="Stores Near Me" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,243,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice">
+            <Label Content="Stores Near Me" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFE2CFCF" FontFamily="Consolas">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -35,8 +34,8 @@
                 </Label.RenderTransform>
             </Label>
         </Button>
-        <Button HorizontalAlignment="Left" Height="45" Margin="63,325,0,0" VerticalAlignment="Top" Width="122">
-            <Label Content="Rewards" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,325,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice">
+            <Label Content="Rewards" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFE0CACA" FontFamily="Consolas">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -47,8 +46,15 @@
                 </Label.RenderTransform>
             </Label>
         </Button>
-        <Image HorizontalAlignment="Left" Height="209" Margin="289,161,0,0" VerticalAlignment="Top" Width="229"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="0,85,-0.4,0" Stroke="Black" VerticalAlignment="Top" Width="794"/>
+        <Rectangle Fill="#FFE8EBF1" HorizontalAlignment="Left" Height="12" Margin="0,85,-0.4,0" Stroke="#FFF9E3E3" VerticalAlignment="Top" Width="794"/>
+        <Label Content="HomePage" HorizontalAlignment="Left" Margin="296,0,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Foreground="#FF014BAA" FontFamily="Candice"/>
+        <Image HorizontalAlignment="Left" Height="280" Margin="226,140,0,0" VerticalAlignment="Top" Width="358" Source="Poster.JPG"/>
+        <Label Content="Wannes101" HorizontalAlignment="Left" Margin="582,211,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+        <Label Content="RayMan21" HorizontalAlignment="Left" Margin="584,237,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+        <Label Content="Tom911" HorizontalAlignment="Left" Margin="590,260,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+        <Label Content="1800" HorizontalAlignment="Left" Margin="678,212,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+        <Label Content="1690" HorizontalAlignment="Left" Margin="678,237,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+        <Label Content="1300" HorizontalAlignment="Left" Margin="678,262,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
 
     </Grid>
 </Window>
