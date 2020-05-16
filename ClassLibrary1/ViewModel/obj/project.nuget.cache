@@ -2,6 +2,7 @@
   "version": 2,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "hx89LQ9AS72FrXphlHAhNgsdJdWxOBD67oZduaacS6q180+9k3FnH2ACs/8+Xh17kwH1HQDW2rXHWJxr3vgoLA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
@@ -15,9 +16,13 @@
 =======
 >>>>>>> master
   "dgSpecHash": "Uwea/dEVCtmjfyNYfAzO4j8lrLC/jNQH/URSA1JnEyJQms2nuiiKVwcszHN2SpdToemMhNJNoUStIe+mtq3AMw==",
+=======
+  "dgSpecHash": "FYW+ZCCybWMETmSlapP1n3V+oLPMr46gkaSfmY5ZVptkDKAQ/iDIFJKIoffwSzAPXgJbL7Yd8fkUx6VsHoRu7g==",
+>>>>>>> master
   "success": true,
-  "projectFilePath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+  "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
 <<<<<<< HEAD
     "C:\\Users\\raymo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\raymo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
@@ -25,6 +30,10 @@
 =======
     "C:\\Users\\nelen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\nelen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+>>>>>>> master
+=======
+    "C:\\Users\\raymo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\raymo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
 >>>>>>> master
   ],
   "logs": []

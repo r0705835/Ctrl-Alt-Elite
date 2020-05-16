@@ -80,6 +80,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Reward.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="storeOverview.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -112,6 +116,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <None Include="Properties\plant-with-leaves.png" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +130,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image1.png" />
+=======
+    <Resource Include="Plantains.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Walmart.png" />
+>>>>>>> master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -3,6 +3,7 @@
   "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {}
   },
   "projects": {
@@ -22,23 +23,30 @@
 =======
     "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {}
 >>>>>>> master
+=======
+    "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {}
+>>>>>>> master
   },
   "projects": {
-    "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {
+    "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\nelen\\.nuget\\packages\\",
-        "outputPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
+        "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
           "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
 =======
           "C:\\Users\\nelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
+=======
+          "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
