@@ -29,18 +29,27 @@ namespace Model
 
 
 
-        public void buy(Product product)
+        public Boolean buy(Product product)
         {
             if (product == null) { throw new System.ArgumentException("Product is null"); }
             this.ecoscore += product.getRating();
+            return true;
+
 
         }
 
 
 
-        public void redeem(Reward reward) {
+        public Boolean redeem(Reward reward) {
             if (reward == null) { throw new System.ArgumentException("reward is null"); }
-            this.ecoscore -= reward.getPrice();
+            if (this.ecoscore > reward.getPrice())
+            {
+                this.ecoscore -= reward.getPrice();
+                return true;
+            }
+            else { return false; }
+       
+            
         }
 
 
