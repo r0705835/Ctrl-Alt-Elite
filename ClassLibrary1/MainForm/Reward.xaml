@@ -1,0 +1,31 @@
+﻿<Window x:Class="MainForm.Reward"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MainForm"
+        mc:Ignorable="d"
+        Title="Reward" Height="450" Width="800">
+    <Grid>
+        <Label Content="Rewards" HorizontalAlignment="Left" Margin="340,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.505,0.586" FontSize="22"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="94,75,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Description" HorizontalAlignment="Left" Margin="232,75,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label Content="Cost" HorizontalAlignment="Left" Margin="502,75,0,0" VerticalAlignment="Top" FontSize="18" RenderTransformOrigin="-0.031,0.512"/>
+        <Label Content="Coupon 5" HorizontalAlignment="Left" Margin="94,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="A coupon for 5 euros" HorizontalAlignment="Left" Margin="232,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="50 Ecopoints" HorizontalAlignment="Left" Margin="502,140,0,0" VerticalAlignment="Top"/>
+        <Label Content="Coupon 10" HorizontalAlignment="Left" Margin="94,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="A coupon for 10 euros" HorizontalAlignment="Left" Margin="232,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="90 Ecopoints" HorizontalAlignment="Left" Margin="502,171,0,0" VerticalAlignment="Top"/>
+        <Label Content="Coupon 5%" HorizontalAlignment="Left" Margin="94,233,0,0" VerticalAlignment="Top"/>
+        <Label Content="A coupon to get 5% off of your next purchase&#xD;&#xA;" HorizontalAlignment="Left" Margin="232,233,0,0" VerticalAlignment="Top"/>
+        <Label Content="60 Ecopoints" HorizontalAlignment="Left" Margin="502,233,0,0" VerticalAlignment="Top"/>
+        <Label Content="Coupon 15&#xD;&#xA;" HorizontalAlignment="Left" Margin="94,202,0,0" VerticalAlignment="Top"/>
+        <Label Content="A coupon for 15 euros" HorizontalAlignment="Left" Margin="232,202,0,0" VerticalAlignment="Top"/>
+        <Label Content="125 Ecopoints" HorizontalAlignment="Left" Margin="502,202,0,0" VerticalAlignment="Top"/>
+        <Label Content="Coupon 10%&#xD;&#xA;" HorizontalAlignment="Left" Margin="94,264,0,0" VerticalAlignment="Top"/>
+        <Label Content="A coupon to get 10% off of your next purchase&#xD;&#xA;" HorizontalAlignment="Left" Margin="232,264,0,0" VerticalAlignment="Top"/>
+        <Label Content="100 Ecopoints" HorizontalAlignment="Left" Margin="502,264,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
