@@ -17,9 +17,8 @@ public class SamplesArrayList
         Queue RewardPerPerc = new Queue();
         RewardPerPerc.Enqueue("+3 ");
         RewardPerPerc.Enqueue("+2 ");
-        RewardPerPerc.Enqueue("+4");
-        RewardPerPerc.Enqueue("lazy");
-        RewardPerPerc.Enqueue("dog");
+        RewardPerPerc.Enqueue("+4 ");
+        RewardPerPerc.Enqueue("+4 ");
 
         // Displays the ArrayList and the Queue.
         Console.WriteLine("Selected Eco-Products:");
@@ -48,9 +47,9 @@ public class SamplesArrayList
 This code produces the following output.
 
 Selected Eco-Products:
-    The    quick    brown    fox
+    Plantains    Apples    Milk Cartons    Sweets(Paper/Cardboard Package)
 Reward amounts per plastic percentage:
-    jumps    over    the    lazy    dog
+    +3            +2           +4                         +4    
 The ArrayList now contains the following:
-    The    quick    brown    fox    jumps    over    the    lazy    dog
+    Plantains Apples Milk Cartons Sweets(Paper/Cardboard Package) +3 +2 +4 +4
 */
