@@ -20,6 +20,7 @@ namespace Model
             this.name = name;
             this.adress = adress;
             this.products = new List<Product>();
+            this.rating = 0;
         }
 
 
@@ -45,6 +46,8 @@ namespace Model
 
 
         public int getRating() { return this.rating; }
+
+        public List<Product> getProducts() { return this.products; }
 
 
 
