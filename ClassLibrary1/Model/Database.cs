@@ -31,12 +31,17 @@ namespace Model
         public Product product7;
         public Product product8;
         public Product product9;
-        public Product product10;
-        public Product product11;
-        public Product product12;
-        public Product product13;
-        public Product product14;
-        public Product product15;
+
+        public List<User> users;
+        public User user1;
+        public User user2;
+        public User user3;
+        public User user4;
+        public User user5;
+        public User user6;
+        public User user7;
+        public User user8;
+
 
 
 
@@ -85,7 +90,77 @@ namespace Model
             products.Add(product7);
             products.Add(product8);
             products.Add(product9);
- 
+
+
+
+            users = new List<User>();
+
+
+            user1 = new User(1,"Thomas Nelen");
+            user2 = new User(2, "Wannes Forier");
+            user3 = new User(3, "Ida Spoor");
+            user4 = new User(4, "Valerie Awelewa");
+            user5 = new User(5, "Miranda Covic");
+            user6 = new User(6, "Santa Brice");
+            user7 = new User(7, "Raymond Gericke");
+            user8 = new User(8, "Tanielle Pettitt");
+
+
+
+
+            store1.add(product1);
+            store1.add(product3);
+            store2.add(product5);
+            store2.add(product4);
+            store3.add(product9);
+            store3.add(product7);
+            store4.add(product6);
+            store4.add(product1);
+            store5.add(product8);
+            store5.add(product3);
+            store6.add(product7);
+            store6.add(product3);
+
+
+
+
+            user1.buy(product1);
+            user1.buy(product4);
+            user1.buy(product6);
+
+
+
+            user2.buy(product2);
+            user2.buy(product1);
+            user2.buy(product9);
+
+            user3.buy(product3);
+            user3.buy(product5);
+            user3.buy(product4);
+
+            user4.buy(product4);
+            user4.buy(product1);
+            user4.buy(product6);
+
+            user5.buy(product5);
+            user5.buy(product1);
+            user5.buy(product7);
+
+            user6.buy(product6);
+            user6.buy(product4);
+            user6.buy(product9);
+
+            user7.buy(product7);
+            user7.buy(product8);
+            user7.buy(product9);
+            user7.buy(product1);
+
+            user8.buy(product8);
+            user7.buy(product3);
+            user7.buy(product1);
+            user7.buy(product6);
+
+
 
 
 
