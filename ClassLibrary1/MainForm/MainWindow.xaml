@@ -7,6 +7,48 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Label Content="HomePage" HorizontalAlignment="Left" Margin="341,25,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="Username" HorizontalAlignment="Left" Margin="584,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691"/>
+        <Label Content="Eco-Points" HorizontalAlignment="Left" Margin="665,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691"/>
+        <Label Content="Scoreboard" HorizontalAlignment="Left" Margin="623,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" FontSize="14"/>
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,161,0,0" VerticalAlignment="Top" Width="122">
+            <Label Content="Stores" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.384"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,243,0,0" VerticalAlignment="Top" Width="122">
+            <Label Content="Stores Near Me" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.384"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Button>
+        <Button HorizontalAlignment="Left" Height="45" Margin="63,325,0,0" VerticalAlignment="Top" Width="122">
+            <Label Content="Rewards" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.384"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="209" Margin="289,161,0,0" VerticalAlignment="Top" Width="229"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="19" Margin="0,85,-0.4,0" Stroke="Black" VerticalAlignment="Top" Width="794"/>
+
     </Grid>
 </Window>
