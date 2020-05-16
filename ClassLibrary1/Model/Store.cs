@@ -20,6 +20,7 @@ namespace Model
             this.name = name;
             this.adress = adress;
             this.products = new List<Product>();
+            this.rating = 0;
         }
 
 
@@ -29,6 +30,8 @@ namespace Model
             if(products.Contains(product)) { throw new System.ArgumentException("Product already exists"); }
 
             products.Add(product);
+            this.updateRating();
+
         }
 
 
@@ -37,6 +40,8 @@ namespace Model
             if (!products.Contains(product)) { throw new System.ArgumentException("Product does not exist"); }
 
             products.Remove(product);
+            this.updateRating();
+
         }
 
         public string getName() { return this.name; }
@@ -45,6 +50,8 @@ namespace Model
 
 
         public int getRating() { return this.rating; }
+
+        public List<Product> getProducts() { return this.products; }
 
 
 
@@ -68,6 +75,11 @@ namespace Model
             }
 
             return avg / count;
+        }
+
+        public void updateRating()
+        {
+            this.rating = calcRating(products);
         }
 
 

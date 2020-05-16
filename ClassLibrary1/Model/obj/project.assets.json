@@ -180,11 +180,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Alexa\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\raymo\\.nuget\\packages\\": {}
+>>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
       "projectName": "Model",
       "projectPath": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
@@ -193,6 +198,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\Model.csproj",
+      "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\Model\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
