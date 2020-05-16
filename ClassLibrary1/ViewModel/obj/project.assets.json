@@ -181,14 +181,19 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Alexa\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\raymo\\.nuget\\packages\\": {}
+>>>>>>> master
+=======
+    "C:\\Users\\nelen\\.nuget\\packages\\": {}
 >>>>>>> master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\Delete_2\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
       "projectName": "ViewModel",
@@ -200,13 +205,20 @@
         "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
       "projectUniqueName": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+=======
+      "projectUniqueName": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+>>>>>>> master
       "projectName": "ViewModel",
-      "projectPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
-      "packagesPath": "C:\\Users\\raymo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\obj\\",
+      "projectPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+      "packagesPath": "C:\\Users\\nelen\\.nuget\\packages\\",
+      "outputPath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\raymo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
+=======
+        "C:\\Users\\nelen\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
