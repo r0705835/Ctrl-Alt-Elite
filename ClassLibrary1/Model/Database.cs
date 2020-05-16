@@ -156,9 +156,9 @@ namespace Model
             user7.buy(product1);
 
             user8.buy(product8);
-            user7.buy(product3);
-            user7.buy(product1);
-            user7.buy(product6);
+            user8.buy(product3);
+            user8.buy(product1);
+            user8.buy(product6);
 
 
 
