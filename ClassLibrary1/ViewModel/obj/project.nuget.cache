@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JAHH1BcY+zb51zy4dAzCc33kSs8vVUaQTSJDV1HGLEV94GGfcueJkG9DU5Dpha+Lp6zAeVVsL3Hq5trmikTToA==",
+  "dgSpecHash": "FYW+ZCCybWMETmSlapP1n3V+oLPMr46gkaSfmY5ZVptkDKAQ/iDIFJKIoffwSzAPXgJbL7Yd8fkUx6VsHoRu7g==",
   "success": true,
-  "projectFilePath": "D:\\nelen\\UCLL\\Hackaton\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
+  "projectFilePath": "C:\\Users\\raymo\\OneDrive\\Desktop\\CtrlAltElete\\Ctrl-Alt-Elite\\ClassLibrary1\\ViewModel\\ViewModel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nelen\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\nelen\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\raymo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\raymo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
