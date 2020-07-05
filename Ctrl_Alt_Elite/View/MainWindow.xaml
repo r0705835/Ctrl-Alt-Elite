@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="650" Width="800">
     <Grid Background="#FF40A1AA">
         <Label Content="Username" HorizontalAlignment="Left" Margin="584,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
         <Label Content="Eco-Points" HorizontalAlignment="Left" Margin="665,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
