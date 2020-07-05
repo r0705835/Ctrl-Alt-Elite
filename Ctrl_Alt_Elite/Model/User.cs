@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Model
 {
-       class User
+    class User
     {
         public int UserID { get; set; }
         public string UserName { get; set; }
@@ -13,7 +11,8 @@ namespace Model
 
 
 
-        public User(int userid, string username) {
+        public User(int userid, string username)
+        {
             this.UserID = userid;
             this.UserName = username;
             this.ecoscore = 0;
@@ -40,7 +39,8 @@ namespace Model
 
 
 
-        public Boolean redeem(Reward reward) {
+        public Boolean redeem(Reward reward)
+        {
             if (reward == null) { throw new System.ArgumentException("reward is null"); }
             if (this.ecoscore > reward.getPrice())
             {
@@ -48,8 +48,8 @@ namespace Model
                 return true;
             }
             else { return false; }
-       
-            
+
+
         }
 
 

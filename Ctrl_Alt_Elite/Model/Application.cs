@@ -37,7 +37,7 @@ public class SamplesArrayList
         Console.WriteLine("Reward amounts per plastic percentage:");
         PrintValues(RewardPerPerc, '\t');
 
-        
+
 
         // Copies the Queue elements to the end of the ArrayList.
         ProductNames.AddRange(RewardPerPerc);

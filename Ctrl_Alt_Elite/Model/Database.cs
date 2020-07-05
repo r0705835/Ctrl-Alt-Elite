@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Model
 {
@@ -69,7 +67,7 @@ namespace Model
 
             products = new List<Product>();
 
-            product1 = new Product(1,"Granny", 1);
+            product1 = new Product(1, "Granny", 1);
             product2 = new Product(2, "Dove", 2);
             product3 = new Product(3, "Centwafel", 3);
             product4 = new Product(4, "Cola", 4);
@@ -96,7 +94,7 @@ namespace Model
             users = new List<User>();
 
 
-            user1 = new User(1,"Thomas Nelen");
+            user1 = new User(1, "Thomas Nelen");
             user2 = new User(2, "Wannes Forier");
             user3 = new User(3, "Ida Spoor");
             user4 = new User(4, "Valerie Awelewa");
