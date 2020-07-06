@@ -14,7 +14,7 @@
                     <Label Content="Username" HorizontalAlignment="Left" Margin="584,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
                     <Label Content="Eco-Points" HorizontalAlignment="Left" Margin="665,188,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Consolas"/>
                     <Label Content="Scoreboard" HorizontalAlignment="Left" Margin="597,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" FontSize="20" Foreground="#FF014BAA" FontWeight="Bold" FontFamily="Candice"/>
-                    <Button HorizontalAlignment="Left" Height="45" Margin="63,161,0,0" VerticalAlignment="Top" Width="122" Foreground="#FFE2D4D4" Background="#FF014BAA" FontFamily="Candice" Click="Button_Click">
+                    <Button HorizontalAlignment="Left" Height="45" Margin="63,161,0,0" VerticalAlignment="Top" Width="122" Foreground="#FFE2D4D4" Background="#FF014BAA" FontFamily="Candice" Command="{Binding GoToScreenIndividualStore}">
                         <Label Content="Stores" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFD6C1C1" FontFamily="Consolas">
                             <Label.RenderTransform>
                                 <TransformGroup>
@@ -26,8 +26,8 @@
                             </Label.RenderTransform>
                         </Label>
                     </Button>
-                    <Button HorizontalAlignment="Left" Height="45" Margin="63,243,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice">
-                        <Label Content="Stores Near Me" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFE2CFCF" FontFamily="Consolas">
+                    <Button HorizontalAlignment="Left" Height="45" Margin="63,243,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice" Command="{Binding GoToScreenStoreOverview}">
+                        <Label Content="Stores Near Me" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFE2CFCF" FontFamily="Consolas" >
                             <Label.RenderTransform>
                                 <TransformGroup>
                                     <ScaleTransform/>
@@ -38,7 +38,7 @@
                             </Label.RenderTransform>
                         </Label>
                     </Button>
-                    <Button HorizontalAlignment="Left" Height="45" Margin="63,325,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice">
+                    <Button HorizontalAlignment="Left" Height="45" Margin="63,325,0,0" VerticalAlignment="Top" Width="122" Background="#FF014BAA" FontFamily="Candice" Command="{Binding GoToScreenRewards}">
                         <Label Content="Rewards" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="6.758,4.691" Foreground="#FFE0CACA" FontFamily="Consolas">
                             <Label.RenderTransform>
                                 <TransformGroup>
@@ -59,6 +59,50 @@
                     <Label Content="1800" HorizontalAlignment="Left" Margin="678,212,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
                     <Label Content="1690" HorizontalAlignment="Left" Margin="678,237,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
                     <Label Content="1300" HorizontalAlignment="Left" Margin="678,262,0,0" VerticalAlignment="Top" FontFamily="Consolas" Foreground="#FF014BAA"/>
+                </Grid>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type local:ScreenIndividualStore}">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="309*"/>
+                        <ColumnDefinition Width="0*"/>
+                        <ColumnDefinition Width="13*"/>
+                        <ColumnDefinition Width="53*"/>
+                        <ColumnDefinition Width="22*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Store" HorizontalAlignment="Left" Margin="10,0,0,371" VerticalAlignment="Bottom" Height="39" Width="78" RenderTransformOrigin="0.5,0.5">
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.398"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </Label.RenderTransform>
+                    </Label>
+                    <ComboBox HorizontalAlignment="Left" Margin="217,68,0,0" VerticalAlignment="Top" Width="185">
+                        <ComboBoxItem Content="19%-0%  +5" HorizontalAlignment="Left" Width="161"/>
+                        <ComboBoxItem Content="39%-20%  +4" HorizontalAlignment="Left" Width="161"/>
+                        <ComboBoxItem Content="59%-40%  +3" HorizontalAlignment="Left" Width="161"/>
+                        <ComboBoxItem Content="79%-60%  +2" HorizontalAlignment="Left" Width="161"/>
+                        <ComboBoxItem Content="100%-80%  +1" HorizontalAlignment="Left" Width="161"/>
+                        <ComboBoxItem Content="ComboBoxItem" HorizontalAlignment="Left" Width="183"/>
+                    </ComboBox>
+                    <Image HorizontalAlignment="Left" Height="256" Margin="516,108,0,0" VerticalAlignment="Top" Width="225" Grid.ColumnSpan="4"/>
+                    <ComboBox HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="185">
+                        <ComboBoxItem Content="Graystraat 102, 1040 Brussel" HorizontalAlignment="Left" Width="169"/>
+                        <ComboBoxItem Content="Edingensesteenweg 196 1500 Halle" HorizontalAlignment="Left" Width="169"/>
+                        <ComboBoxItem Content="Casterstraat 31A 3500 Hasselt" HorizontalAlignment="Left" Width="183"/>
+                        <ComboBoxItem Content="Walmart Supercenter #664 4301 Vine St" HorizontalAlignment="Left" Width="183"/>
+                        <ComboBoxItem Content="diestsestraat 210 leuven" HorizontalAlignment="Left" Width="183"/>
+                    </ComboBox>
+
+                </Grid>
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type local:ScreenStoreOverview}">
+                <Grid>
+                    <Label Content="Store Overview" HorizontalAlignment="Left" Margin="315,10,0,0" VerticalAlignment="Top" Width="271" FontSize="18"/>
+                    <Label Content="Stores" HorizontalAlignment="Left" Margin="58,87,0,0" VerticalAlignment="Top" FontSize="20"/>
                 </Grid>
             </DataTemplate>
         </ContentPresenter.Resources>

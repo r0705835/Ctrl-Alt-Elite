@@ -67,21 +67,39 @@ namespace View
     {
         public ScreenMenu(Navigator navigator) : base(navigator)
         {
-            /*GoToScreenIndividualStore = new EasyCommand(() => SwitchTo(new ScreenPuzzleGame(navigator)));
-            GoToScreenStoreOverview = new EasyCommand(() => SwitchTo(new ScreenPuzzleSelection(navigator)));*/
+            GoToScreenIndividualStore = new EasyCommand(() => SwitchTo(new ScreenIndividualStore(navigator)));
+            GoToScreenStoreOverview = new EasyCommand(() => SwitchTo(new ScreenStoreOverview(navigator)));
+            GoToScreenRewards = new EasyCommand(() => SwitchTo(new ScreenRewards(navigator)));
+
         }
-        /*
+
         public ICommand GoToScreenIndividualStore { get; }
 
         public ICommand GoToScreenStoreOverview { get; }
-        */
+
+        public ICommand GoToScreenRewards { get; }
+
     }
 
 
-    /*internal class ScreenPuzzleGame : MainWindow.Screen
+    public class ScreenIndividualStore : Screen
     {
-        public ScreenPuzzleGame(MainWindow.Navigator navigator) : base(navigator)
+        public ScreenIndividualStore(Navigator navigator) : base(navigator)
         {
         }
-    }*/
+    }
+
+    public class ScreenStoreOverview : Screen
+    {
+        public ScreenStoreOverview(Navigator navigator) : base(navigator)
+        {
+        }
+    }
+
+    public class ScreenRewards : Screen
+    {
+        public ScreenRewards(Navigator navigator) : base(navigator)
+        {
+        }
+    }
 }
